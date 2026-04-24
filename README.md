@@ -42,9 +42,9 @@ Para dar de alta un equipo, utiliza la función agregar_instrumento. El sistema 
 
 - color: (Ej. Dorado)
 
-- precio: (ej. 1000)
+- precio: (Ej. 1000)
 
-- anio: (ej. 2000)
+- anio: (Ej. 2000)
 
 ## 3. Gestión y Mantenimiento (CRUD)
 
