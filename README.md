@@ -34,17 +34,17 @@ Antes de agregar instrumentos, se debe crear el espacio de almacenamiento en la 
 
 Para dar de alta un equipo, utiliza la función agregar_instrumento. El sistema validará que el año sea coherente y que no existan duplicados.
 
-- Datos requeridos: * nombre: (Ej. Saxofón Alto)
+- Datos requeridos: * nombre: (Ej. Saxofón)
 
-- modelo: (Ej. Yamaha YAS-280)
+- modelo: (Ej. Yamaha)
 
-- gama: (Ej. Profesional, Estudiante)
+- gama: (Ej. Profesional)
 
-- color: (Ej. Dorado, Plateado)
+- color: (Ej. Dorado)
 
-- precio: (Valor en unidades numéricas)
+- precio: (ej. 1000)
 
-- anio: (Año de fabricación)
+- anio: (ej. 2000)
 
 ## 3. Gestión y Mantenimiento (CRUD)
 
