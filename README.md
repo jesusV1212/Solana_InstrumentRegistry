@@ -8,6 +8,10 @@ A diferencia de un sistema tradicional, este registro garantiza que la informaci
 
 # 🛠️ Herramientas y Tecnologías
 
-- Lenguaje: Rust.
-- Framework: Anchor.
-- Entorno: Solana Playground.
+-Lenguaje: Rust (enfocado en seguridad de memoria).
+
+-Framework: Anchor (estándar para Smart Contracts en Solana).
+
+-Entorno: Solana Playground.
+
+-Red: Devnet / Localhost.
