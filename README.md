@@ -7,3 +7,7 @@ A diferencia de un sistema tradicional, este registro garantiza que la informaci
 
 
 # 🛠️ Herramientas y Tecnologías
+
+- Lenguaje: Rust.
+- Framework: Anchor.
+- Entorno: Solana Playground.
