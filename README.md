@@ -21,3 +21,12 @@ A diferencia de un sistema tradicional, este registro garantiza que la informaci
 - src/lib.rs: Contiene la lógica del Smart Contract (instrucciones y validaciones).
 
 - README.md: Guía general del proyecto y documentación para el usuario.
+
+# 📌 Instrucciones de Uso
+
+## 1. Inicializar el Sistema de Registro
+
+Antes de agregar instrumentos, se debe crear el espacio de almacenamiento en la blockchain ejecutando la función inicializar_registro.
+
+- PDA (Program Derived Address): El sistema utiliza una dirección derivada basada en la semilla "registro" y la publicKey del administrador (owner). Esto asegura que cada usuario tenga su propio inventario único.
+  
