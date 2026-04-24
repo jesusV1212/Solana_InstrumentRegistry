@@ -15,3 +15,9 @@ A diferencia de un sistema tradicional, este registro garantiza que la informaci
 - Entorno: Solana Playground.
 
 - Red: Devnet / Localhost.
+
+# 📂 Estructura de Archivos
+
+- src/lib.rs: Contiene la lógica del Smart Contract (instrucciones y validaciones).
+
+- README.md: Guía general del proyecto y documentación para el usuario.
