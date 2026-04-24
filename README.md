@@ -29,4 +29,55 @@ A diferencia de un sistema tradicional, este registro garantiza que la informaci
 Antes de agregar instrumentos, se debe crear el espacio de almacenamiento en la blockchain ejecutando la función inicializar_registro.
 
 - PDA (Program Derived Address): El sistema utiliza una dirección derivada basada en la semilla "registro" y la publicKey del administrador (owner). Esto asegura que cada usuario tenga su propio inventario único.
+
+## 2. Registrar un Nuevo Instrumento
+
+Para dar de alta un equipo, utiliza la función agregar_instrumento. El sistema validará que el año sea coherente y que no existan duplicados.
+
+- Datos requeridos: * nombre: (Ej. Saxofón Alto)
+
+- modelo: (Ej. Yamaha YAS-280)
+
+- gama: (Ej. Profesional, Estudiante)
+
+- color: (Ej. Dorado, Plateado)
+
+- precio: (Valor en unidades numéricas)
+
+- anio: (Año de fabricación)
+
+## 3. Gestión y Mantenimiento (CRUD)
+
+- Actualizar Precio: Mediante la función actualizar_precio, se puede modificar el valor de mercado de un instrumento buscando específicamente por su modelo.
+
+- Eliminar Registro: La función eliminar_instrumento permite remover un equipo del inventario si este ha sido vendido o ya no requiere seguimiento.
+
+## 📋 Ejemplo de Resultado (JSON)
+
+Cuando consultas las cuentas (Accounts) de tu programa tras un registro exitoso, verás la información organizada de esta manera:
+
+```json
+
+{
+  "owner": "5gCBRqTzWsgyXD5WEewheGtm8LLZG6mH5oB2kk2xZ4vh",
+  "inventario": [
+    {
+      "nombre": "saxofon",
+      "modelo": "yamaha",
+      "gama": "profesional",
+      "color": "dorado",
+      "precio": "1000",
+      "anio": 2000
+    },
+    {
+      "nombre": "clariente",
+      "modelo": "bundi",
+      "gama": "estudiante",
+      "color": "negro",
+      "precio": "10000",
+      "anio": 2010
+    }
+  ]
+}
+```
   
